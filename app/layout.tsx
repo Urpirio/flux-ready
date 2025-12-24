@@ -1,3 +1,5 @@
+import Footer from "@/components/components - globales/components/Footer";
+import Header from "@/components/components - globales/components/Header";
 import "@/style/globals.css";
 
 export default function RootLayout({
@@ -7,7 +9,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` antialiased`}>{children}</body>
+      <body >
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
