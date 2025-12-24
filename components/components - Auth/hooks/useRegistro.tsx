@@ -1,0 +1,7 @@
+
+
+export const useRegistro = () =>{
+    return {
+        
+    }
+}
