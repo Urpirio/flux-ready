@@ -4,10 +4,10 @@ import Link from "next/link";
 export default function Header() {
   return (
     <>
-      <header className="flex justify-center w-full py-3">
-        <div className=" flex items-center w-full p-5 border rounded-3xl max-w-7xl shadow-xl ">
+      <header className="flex justify-center w-full py-3 fixed">
+        <div className=" flex items-center w-full p-5 border bg-white rounded-xl max-w-7xl shadow-xl ">
           <div className="flex grow ">
-            <span>L</span>
+            <span>Flow-Ready</span>
           </div>
           <div className="flex grow justify-end gap-3">
             <Link href={""} className="">
